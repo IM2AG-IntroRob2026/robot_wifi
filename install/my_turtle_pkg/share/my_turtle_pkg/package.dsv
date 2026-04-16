@@ -1,0 +1,12 @@
+source;share/my_turtle_pkg/hook/path.ps1
+source;share/my_turtle_pkg/hook/path.dsv
+source;share/my_turtle_pkg/hook/path.sh
+source;share/my_turtle_pkg/hook/pythonpath.ps1
+source;share/my_turtle_pkg/hook/pythonpath.dsv
+source;share/my_turtle_pkg/hook/pythonpath.sh
+source;share/my_turtle_pkg/hook/pythonscriptspath.ps1
+source;share/my_turtle_pkg/hook/pythonscriptspath.dsv
+source;share/my_turtle_pkg/hook/pythonscriptspath.sh
+source;share/my_turtle_pkg/hook/ament_prefix_path.ps1
+source;share/my_turtle_pkg/hook/ament_prefix_path.dsv
+source;share/my_turtle_pkg/hook/ament_prefix_path.sh

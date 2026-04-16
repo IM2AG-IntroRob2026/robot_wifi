@@ -1,0 +1,3 @@
+[console_scripts]
+draw_boundaries_node = my_turtle_pkg.draw_boundaries_node:main
+

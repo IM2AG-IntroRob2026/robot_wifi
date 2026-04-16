@@ -1,0 +1,39 @@
+[0.470s] Invoking command in '/root/ros2_ws/src/my_turtle_pkg': PYTHONPATH=/root/ros2_ws/build/my_turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_turtle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtle_pkg build --build-base /root/ros2_ws/build/my_turtle_pkg/build install --record /root/ros2_ws/build/my_turtle_pkg/install.log --single-version-externally-managed install_data
+[0.651s] running egg_info
+[0.651s] creating ../../build/my_turtle_pkg/my_turtle_pkg.egg-info
+[0.651s] writing ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/PKG-INFO
+[0.651s] writing dependency_links to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/dependency_links.txt
+[0.651s] writing entry points to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/entry_points.txt
+[0.652s] writing requirements to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/requires.txt
+[0.652s] writing top-level names to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/top_level.txt
+[0.652s] writing manifest file '../../build/my_turtle_pkg/my_turtle_pkg.egg-info/SOURCES.txt'
+[0.653s] reading manifest file '../../build/my_turtle_pkg/my_turtle_pkg.egg-info/SOURCES.txt'
+[0.653s] writing manifest file '../../build/my_turtle_pkg/my_turtle_pkg.egg-info/SOURCES.txt'
+[0.653s] running build
+[0.653s] running build_py
+[0.654s] creating /root/ros2_ws/build/my_turtle_pkg/build
+[0.654s] creating /root/ros2_ws/build/my_turtle_pkg/build/lib
+[0.654s] creating /root/ros2_ws/build/my_turtle_pkg/build/lib/my_turtle_pkg
+[0.654s] copying my_turtle_pkg/__init__.py -> /root/ros2_ws/build/my_turtle_pkg/build/lib/my_turtle_pkg
+[0.654s] copying my_turtle_pkg/draw_boundaries_nodes.py -> /root/ros2_ws/build/my_turtle_pkg/build/lib/my_turtle_pkg
+[0.654s] running install
+[0.654s] running install_lib
+[0.654s] creating /root/ros2_ws/install/my_turtle_pkg/lib/python3.10/site-packages/my_turtle_pkg
+[0.654s] copying /root/ros2_ws/build/my_turtle_pkg/build/lib/my_turtle_pkg/__init__.py -> /root/ros2_ws/install/my_turtle_pkg/lib/python3.10/site-packages/my_turtle_pkg
+[0.655s] copying /root/ros2_ws/build/my_turtle_pkg/build/lib/my_turtle_pkg/draw_boundaries_nodes.py -> /root/ros2_ws/install/my_turtle_pkg/lib/python3.10/site-packages/my_turtle_pkg
+[0.655s] byte-compiling /root/ros2_ws/install/my_turtle_pkg/lib/python3.10/site-packages/my_turtle_pkg/__init__.py to __init__.cpython-310.pyc
+[0.655s] byte-compiling /root/ros2_ws/install/my_turtle_pkg/lib/python3.10/site-packages/my_turtle_pkg/draw_boundaries_nodes.py to draw_boundaries_nodes.cpython-310.pyc
+[0.656s] running install_data
+[0.657s] creating /root/ros2_ws/install/my_turtle_pkg/share/ament_index
+[0.657s] creating /root/ros2_ws/install/my_turtle_pkg/share/ament_index/resource_index
+[0.657s] creating /root/ros2_ws/install/my_turtle_pkg/share/ament_index/resource_index/packages
+[0.657s] copying resource/my_turtle_pkg -> /root/ros2_ws/install/my_turtle_pkg/share/ament_index/resource_index/packages
+[0.657s] copying package.xml -> /root/ros2_ws/install/my_turtle_pkg/share/my_turtle_pkg
+[0.657s] creating /root/ros2_ws/install/my_turtle_pkg/share/my_turtle_pkg/launch
+[0.657s] copying launch/draw_boundaries.launch.py -> /root/ros2_ws/install/my_turtle_pkg/share/my_turtle_pkg/launch
+[0.657s] running install_egg_info
+[0.658s] Copying ../../build/my_turtle_pkg/my_turtle_pkg.egg-info to /root/ros2_ws/install/my_turtle_pkg/lib/python3.10/site-packages/my_turtle_pkg-0.0.0-py3.10.egg-info
+[0.659s] running install_scripts
+[0.675s] Installing draw_boundaries_node script to /root/ros2_ws/install/my_turtle_pkg/bin
+[0.675s] writing list of installed files to '/root/ros2_ws/build/my_turtle_pkg/install.log'
+[0.695s] Invoked command in '/root/ros2_ws/src/my_turtle_pkg' returned '0': PYTHONPATH=/root/ros2_ws/build/my_turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_turtle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtle_pkg build --build-base /root/ros2_ws/build/my_turtle_pkg/build install --record /root/ros2_ws/build/my_turtle_pkg/install.log --single-version-externally-managed install_data

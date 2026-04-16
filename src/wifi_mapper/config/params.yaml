@@ -1,0 +1,71 @@
+# ============================================================
+#  wifi_mapper — paramètres de configuration
+# ============================================================
+#
+#  Modifiez ces valeurs pour adapter le projet à votre salle
+#  et à votre configuration réseau.
+#
+#  Chargement :
+#    ros2 launch wifi_mapper wifi_mapper.launch.py
+#  Ou directement via les arguments de launch (voir launch file).
+# ============================================================
+
+explorer_node:
+  ros__parameters:
+
+    # Dimensions de la salle (en mètres)
+    # Le robot démarre dans un coin et couvre toute la surface
+    room_width:  3.0       # largeur X
+    room_height: 3.0       # profondeur Y
+
+    # Espacement entre les rangées du zigzag
+    # Plus petit = plus de points = carte plus précise, mais plus long
+    row_spacing: 0.5       # 0.5 m recommandé pour une salle standard
+
+    # Vitesses du robot
+    linear_speed:  0.15    # m/s  (Create 3 max ≈ 0.46 m/s)
+    angular_speed: 0.5     # rad/s
+
+    # Tolérance d'arrivée au waypoint
+    waypoint_tolerance: 0.10   # m
+
+    # Durée de pause à chaque point pour la mesure
+    scan_duration: 2.5         # s
+
+
+wifi_scanner_node:
+  ros__parameters:
+
+    # Interface WiFi du robot (à adapter selon votre système)
+    # Commande pour trouver le nom : ip link show | grep wlan
+    interface: wlan0
+
+    # --- Mesure RSSI (toujours active) ---
+    # Utilise `iw dev <interface> link` ou `iwconfig` en fallback
+
+    # --- iperf3 (optionnel — débit TCP réel) ---
+    # Nécessite un serveur iperf3 accessible : iperf3 -s
+    use_iperf3:      false
+    iperf3_server:   192.168.1.1    # IP du PC serveur iperf3
+    iperf3_duration: 3              # durée du test en secondes
+
+    # Fichier de sortie des mesures
+    # Ce chemin est dans le volume monté → accessible sur ~/ros2_ws/wifi_results/
+    data_file: /root/ros2_ws/wifi_results/wifi_data.json
+
+
+heatmap_node:
+  ros__parameters:
+
+    # Même fichier que wifi_scanner_node
+    data_file:  /root/ros2_ws/wifi_results/wifi_data.json
+
+    # Répertoire de sortie (accessible sur la machine hôte via ~/ros2_ws/wifi_results/)
+    # → wifi_heatmap.png  : carte thermique double (débit + RSSI)
+    # → summary.json      : résumé textuel (max/min positions)
+    output_dir: /root/ros2_ws/wifi_results
+
+    # Résolution de la grille d'interpolation
+    # 120 = grille 120×120 pixels (bonne qualité)
+    # Augmentez jusqu'à 200 pour plus de détail
+    resolution: 120

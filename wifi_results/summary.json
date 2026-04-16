@@ -1,0 +1,20 @@
+{
+  "n_measurements": 49,
+  "debit_max": {
+    "value_mbps": 80.65,
+    "position": {
+      "x": 3.71,
+      "y": 3.63
+    }
+  },
+  "debit_min": {
+    "value_mbps": 49.9,
+    "position": {
+      "x": 4.08,
+      "y": 3.58
+    }
+  },
+  "rssi_max_dbm": -46.0,
+  "rssi_min_dbm": -52.0,
+  "heatmap_path": "/root/ros2_ws/wifi_results/wifi_heatmap.png"
+}

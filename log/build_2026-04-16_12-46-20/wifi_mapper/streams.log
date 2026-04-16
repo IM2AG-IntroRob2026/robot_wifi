@@ -1,0 +1,19 @@
+[0.694s] Invoking command in '/root/ros2_ws/build/wifi_mapper': PYTHONPATH=/root/ros2_ws/build/wifi_mapper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/wifi_mapper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/wifi_mapper/build --no-deps symlink_data
+[0.986s] running develop
+[1.148s] running egg_info
+[1.149s] writing wifi_mapper.egg-info/PKG-INFO
+[1.149s] writing dependency_links to wifi_mapper.egg-info/dependency_links.txt
+[1.149s] writing entry points to wifi_mapper.egg-info/entry_points.txt
+[1.149s] writing requirements to wifi_mapper.egg-info/requires.txt
+[1.149s] writing top-level names to wifi_mapper.egg-info/top_level.txt
+[1.151s] reading manifest file 'wifi_mapper.egg-info/SOURCES.txt'
+[1.152s] writing manifest file 'wifi_mapper.egg-info/SOURCES.txt'
+[1.154s] running build_ext
+[1.154s] Creating /root/ros2_ws/install/wifi_mapper/lib/python3.10/site-packages/wifi-mapper.egg-link (link to .)
+[1.155s] Installing explorer_node script to /root/ros2_ws/install/wifi_mapper/lib/wifi_mapper
+[1.155s] Installing heatmap_node script to /root/ros2_ws/install/wifi_mapper/lib/wifi_mapper
+[1.155s] Installing wifi_scanner_node script to /root/ros2_ws/install/wifi_mapper/lib/wifi_mapper
+[1.156s] 
+[1.156s] Installed /root/ros2_ws/build/wifi_mapper
+[1.156s] running symlink_data
+[1.186s] Invoked command in '/root/ros2_ws/build/wifi_mapper' returned '0': PYTHONPATH=/root/ros2_ws/build/wifi_mapper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/wifi_mapper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/wifi_mapper/build --no-deps symlink_data
