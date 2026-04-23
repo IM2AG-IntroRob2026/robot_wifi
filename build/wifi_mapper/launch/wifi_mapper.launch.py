@@ -1,1 +1,0 @@
-/root/ros2_ws/src/wifi_mapper/launch/wifi_mapper.launch.py

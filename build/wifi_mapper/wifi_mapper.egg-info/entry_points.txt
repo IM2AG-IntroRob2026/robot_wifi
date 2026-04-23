@@ -1,5 +1,0 @@
-[console_scripts]
-explorer_node = wifi_mapper.explorer_node:main
-heatmap_node = wifi_mapper.heatmap_node:main
-wifi_scanner_node = wifi_mapper.wifi_scanner_node:main
-
